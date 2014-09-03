@@ -17,10 +17,9 @@ setup(
     url='https://github.com/alexhill/tinymezzce4',
     author='Alex Hill',
     author_email='alex@hill.net.au',
-
+    include_package_data=True,
     packages=find_packages(),
     install_requires=['django>=1.4'],
-
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
