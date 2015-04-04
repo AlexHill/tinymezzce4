@@ -28,7 +28,7 @@ jQuery(function($) {
                 "searchreplace visualblocks code fullscreen",
                 "insertdatetime media table contextmenu paste"
             ],
-            menubar: false,
+            menubar: true,
             toolbar: ("insertfile undo redo | styleselect | bold italic | " +
                       "alignleft aligncenter alignright alignjustify | " +
                       "bullist numlist outdent indent | link image"),
