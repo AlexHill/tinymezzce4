@@ -31,7 +31,7 @@ jQuery(function($) {
             menubar: false,
             toolbar: ("insertfile undo redo | styleselect | bold italic | " +
                       "alignleft aligncenter alignright alignjustify | " +
-                      "bullist numlist outdent indent | link image"),
+                      "bullist numlist outdent indent | link image | code"),
             file_browser_callback: custom_file_browser,
             content_css: window.__tinymce_css
         });
